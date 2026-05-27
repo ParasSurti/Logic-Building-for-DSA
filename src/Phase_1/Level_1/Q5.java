@@ -1,5 +1,5 @@
 //Check if a given year is a leap year.
-package Level_1;
+package Phase_1.Level_1;
 
 import java.util.Scanner;
 

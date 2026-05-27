@@ -1,5 +1,5 @@
 //Take a 3-digit number and check if all digits are distinct.
-package level_3;
+package Phase_1.level_3;
 
 import java.util.Arrays;
 import java.util.Scanner;

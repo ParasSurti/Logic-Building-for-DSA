@@ -1,5 +1,5 @@
 //Take a month number (1–12) and print the number of days in that month (ignore leap years).
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

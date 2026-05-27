@@ -1,5 +1,5 @@
 //Take the hour of the day (0–23) and print “Good Morning”, “Good Afternoon”, “GoodEvening”, or “Good Night”.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

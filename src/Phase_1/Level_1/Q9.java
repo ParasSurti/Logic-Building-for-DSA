@@ -1,5 +1,5 @@
 //Take a character and check if it’s a vowel or consonant.
-package Level_1;
+package Phase_1.Level_1;
 
 import java.util.Scanner;
 

@@ -1,5 +1,5 @@
 //Check if a number is even or odd.
-package Level_1;
+package Phase_1.Level_1;
 
 import java.util.Scanner;
 

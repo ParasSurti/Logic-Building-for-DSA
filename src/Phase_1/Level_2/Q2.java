@@ -1,5 +1,5 @@
 //If the sides form a valid triangle, determine whether it is equilateral, isosceles, or scalene.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

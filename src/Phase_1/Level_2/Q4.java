@@ -1,5 +1,5 @@
 //Check if one of two given numbers is a multiple of the other.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

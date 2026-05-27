@@ -1,5 +1,5 @@
 //Check voting eligibility for a given age (18+)
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

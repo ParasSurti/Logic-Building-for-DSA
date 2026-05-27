@@ -1,5 +1,5 @@
 //Take two numbers and determine whether both are even, both are odd, or one is even and one is odd.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

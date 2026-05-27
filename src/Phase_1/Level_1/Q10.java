@@ -1,5 +1,5 @@
 //Take a character and check whether it’s uppercase, lowercase, a digit, or a special character.
-package Level_1;
+package Phase_1.Level_1;
 
 import java.lang.*;
 import java.util.Scanner;

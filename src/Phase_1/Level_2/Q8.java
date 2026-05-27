@@ -1,5 +1,5 @@
 //Take an alphabet character and check if it lies between ‘a’ and ‘m’ or ‘n’ and ‘z’.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 

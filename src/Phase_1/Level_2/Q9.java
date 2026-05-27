@@ -1,5 +1,5 @@
 //Take a day number (1–7) and print the corresponding day name.
-package Level_2;
+package Phase_1.Level_2;
 
 import java.util.Scanner;
 
