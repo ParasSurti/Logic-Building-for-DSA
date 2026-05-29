@@ -1,3 +1,4 @@
+//Take three sides and check if they form a valid triangle.
 package Phase_1.Level_2;
 
 import java.util.Scanner;
