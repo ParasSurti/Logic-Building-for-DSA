@@ -1,0 +1,21 @@
+//Print cubes of numbers from 1 to n.
+package Phase_2.Level_3;
+
+import java.util.Scanner;
+
+public class Q2
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a Number : ");
+        int num = input.nextInt();
+
+        int cube = 1;
+        for (int i = 1; i < num ; i++)
+        {
+            cube = i * i * i;
+            System.out.println(i + " x " + i + " x " + i + " = " + cube);
+        }
+    }
+}
