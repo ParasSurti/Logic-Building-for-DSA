@@ -1,4 +1,4 @@
-//Print first n terms of an arithmetic progression (a, d).
+//Check if a number is a strong number (sum of factorials of digits == number).
 package Phase_2.Level_3;
 
 import java.util.Scanner;
@@ -8,20 +8,36 @@ public class Q8
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int num = input.nextInt();
+        int value = num;
 
-        System.out.print("Enter the number (a) : ");
-        int a = input.nextInt();
-
-        System.out.print("Enter the number (d) : ");
-        int d = input.nextInt();
-
-        System.out.print("Enter the number (n) : ");
-        int n = input.nextInt();
-
-        for (int i = 0; i < n; i++)
+        int sum = 0;
+        while(num != 0)
         {
-            System.out.print(a  + " ");
-            a = a + d;
+            int temp = num % 10;
+
+            //METHOD CALL
+            sum += Factorial(temp);
+            num = num / 10;
         }
+        boolean strong = sum == value;
+        if(strong)
+        {
+            System.out.println(value + " is a strong number!!!");
+        }
+        else
+        {
+            System.out.println(value + " isn't a strong number!!!");
+        }
+    }
+    public static int Factorial(int temp)
+    {
+        int product = 1;
+        for (int j = temp; j > 1; j--)
+        {
+            product = product * j;
+        }
+        return product;
     }
 }
