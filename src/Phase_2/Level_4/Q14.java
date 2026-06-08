@@ -1,4 +1,4 @@
-//Print a Left Aligned Triangle with Sequence of Number (1,2,3,4,5,6,7,8,9,0) & start again if hit num finish.
+//Print a Left-Aligned Triangle with numbers 1-9, reset to 0 after 9 and repeat.
 package Phase_2.Level_4;
 
 import java.util.Scanner;
