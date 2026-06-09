@@ -31,7 +31,7 @@ public class Q24
         for (int i = n - 1; i >= 1; i--)
         {
             //For spaces
-            for (int j = n - i; j >= 1; j--)
+            for (int j = 1; j <= n - i; j++)
             {
                 System.out.print(" ");
             }
