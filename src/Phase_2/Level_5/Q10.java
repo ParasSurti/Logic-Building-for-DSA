@@ -19,10 +19,7 @@ public class Q10
 
                 continue;
             }
-            else
-            {
-                sum += num;
-            }
+            sum += num;
         }
         System.out.println("Sum : " + sum);
     }
