@@ -27,16 +27,15 @@ public class Q08
     }
     static void printFibo(int n , int a,int b,int sum, int count)
     {
-        System.out.println(sum);
-        sum = a + b;
-        a = b;
-        b = sum;
-
         //exit Recursion (Base case)
         if(count == n)
         {
+            System.out.println(sum);
             return;
         }
+        sum = a + b;
+        a = b;
+        b = sum;
         count++;
         printFibo(n,a,b,sum,count);
     }
