@@ -23,7 +23,7 @@ public class Q08
 //            b = sum;
 //        }
 
-        printFibo(n,a,b,sum,0);
+        printFibo(n,a,b,sum,1);
     }
     static void printFibo(int n , int a,int b,int sum, int count)
     {
