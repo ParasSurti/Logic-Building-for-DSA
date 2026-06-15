@@ -34,5 +34,4 @@ public class Q02
         System.out.print("*");
         printStar(row,col + 1,n);
     }
-
 }
