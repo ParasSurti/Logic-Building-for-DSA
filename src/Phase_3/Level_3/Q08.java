@@ -13,6 +13,7 @@ public class Q08
 
         printBoth(1,n);
     }
+
     static void printBoth(int count,int n)
     {
         if(count == n)
