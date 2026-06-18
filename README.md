@@ -122,4 +122,6 @@ Solved in **Java**. Built with **consistency**.
 
 ---
 Questions sourced from **CodeWithNishchal**'s Logic Building roadmap.
+
+## 👤 Author
 **Paras Surti**
