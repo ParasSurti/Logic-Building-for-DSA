@@ -18,9 +18,9 @@ public class Q08
         }
 
         int count = 0;
-        int check = countPrime(arr, count, n - 1);
+        int total = countPrime(arr, count, n - 1);
 
-        System.out.println("There are total " + check + " in the arrays!!");
+        System.out.println("There are total " + total + " in the arrays!!");
     }
     //Counting Prime number Iteratively
     static int countPrime(int[] arr,int count, int n)
