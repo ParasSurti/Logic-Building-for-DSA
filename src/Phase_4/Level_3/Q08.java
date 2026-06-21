@@ -28,7 +28,8 @@ public class Q08
         index = right(arr,newArr,n - 1, index);
         if(n == arr.length - 1)
         {
-            return newArr[0] = arr[n];
+            newArr[0] = arr[n];
+            return index;
         }
         newArr[index] = arr[n];
         return index += 1;
