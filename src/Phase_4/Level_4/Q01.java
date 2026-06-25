@@ -17,7 +17,8 @@ public class Q01 extends ArrayTemplate
     void solve()
     {
         boolean check = cmp(arr1,arr2,n - 1);
-        if(!check)
+        if(!check) System.out.println("Both Arrays are equal (same elements & order).");
+        else System.out.println("Both Arrays are not equal (same elements & order).");
     }
     static boolean cmp(int[] arr1, int[] arr2, int n)
     {
