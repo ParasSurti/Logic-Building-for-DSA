@@ -1,9 +1,6 @@
 //Compare two arrays — check if they are equal (same elements & order).
 package Phase_4.Level_4;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Q01 extends ArrayTemplate
 {
     public static void main(String[] args)
