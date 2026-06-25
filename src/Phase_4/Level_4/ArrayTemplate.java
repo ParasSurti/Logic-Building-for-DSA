@@ -12,15 +12,15 @@ public abstract class ArrayTemplate
 
     void setup()
     {
-        System.out.println("Enter the size of Array :");
+        System.out.print("Enter the size of Array : ");
         n = input.nextInt();
 
         arr1 = new int[n];
-        System.out.println("Enter elements of Arrays 1 : ");
+        System.out.print("Enter elements of Arrays 1 : ");
         for (int i = 0; i < n; i++) arr1[i] = input.nextInt();
 
         arr2 = new int[n];
-        System.out.println("Enter elements of Arrays 2 : ");
+        System.out.print("Enter elements of Arrays 2 : ");
         for (int i = 0; i < n; i++) arr2[i] = input.nextInt();
 
         System.out.println("Array 1 : " + Arrays.toString(arr1));
