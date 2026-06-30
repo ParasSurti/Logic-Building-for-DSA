@@ -14,23 +14,14 @@ public class Q01 extends ArrayTemplate
     @Override
     void solve()
     {
-        boolean check = order(arr,n,0,1);
-        if(check)
-        {
-            System.out.println("the array is sorted in ascending order.");
-        }
-        else
-        {
-            System.out.println("The array is not sorted in ascending order.");
-        }
+        boolean check = order(arr,n - 1,0);
+        if(check) System.out.println("the array is sorted in ascending order.");
+        else System.out.println("The array is not sorted in ascending order.");
     }
-    static boolean order(int[] arr, int n ,int i,int j)
+    static boolean order(int[] arr, int n ,int i)
     {
-        if(j >= n) return true;
-        if(arr[i] > arr[j])
-        {
-            return false;
-        }
-        return order(arr,n, i + 1,j + 1);
+        if(i == n) return true;
+        if(arr[i] > arr[i + 1]) return false;
+        return order(arr,n, i + 1);
     }
 }
