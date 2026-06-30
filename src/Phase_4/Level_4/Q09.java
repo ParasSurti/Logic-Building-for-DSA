@@ -2,6 +2,7 @@
 package Phase_4.Level_4;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Q09
 {
@@ -21,6 +22,8 @@ public class Q09
         int[] arr2 = new int[size];
         //count the occurrence
         occurrence(arr,arr2, n - 1);
+        System.out.println(Arrays.toString(arr2));
+
     }
     static int maximumElement(int[] arr, int n, int store)
     {
