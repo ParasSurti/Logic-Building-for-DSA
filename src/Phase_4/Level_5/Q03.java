@@ -12,24 +12,39 @@
         @Override
         void solve()
         {
-            int large = Math.max(arr[0],arr[1]);
-            int sec = Math.min(arr[0],arr[1]);
-            int largest = largest(arr,n - 1,large,sec);
-            System.out.println("Second Largest Element : " + largest);
+            if (n < 2)
+            {
+                System.out.println("Second largest element does not exist.");
+                return;
+            }
+            int[] arr2 = new int[n];
+            int large = newArr2(arr,arr2,n - 1,Integer.MIN_VALUE);
+            int result = largest(arr2,n - 1,large,Integer.MIN_VALUE);
+            if(result == Integer.MIN_VALUE)
+            {
+                System.out.println("Second largest element does not exist.");
+            }
+            else
+            {
+                System.out.println("Second Largest Element : " + result);
+            }
         }
-        static int largest(int[] arr, int n , int large, int seclarge)
+        static int newArr2(int[] arr, int[] arr2, int n , int large)
         {
-            if(n < 0) return seclarge;
-            if(arr[n] > large)
-            {
-                seclarge = large;
-                large = arr[n];
-            }
-            else if(arr[n] > seclarge)
-            {
-                seclarge = arr[n];
-            }
-            return largest(arr,n- 1, large,seclarge);
+            if(n < 0) return large;
+            arr2[n] = arr[n];
+            large = Math.max(arr[n],large);
+            return newArr2(arr,arr2, n - 1, large);
         }
 
+        static int largest(int[] arr2,int n, int large, int sec)
+        {
+            if(n < 0) return sec;
+            if(arr2[n] == large)
+            {
+                arr2[n] = Integer.MIN_VALUE;
+            }
+            sec = Math.max(arr2[n],sec);
+            return largest(arr2,n - 1, large,sec);
+        }
     }
