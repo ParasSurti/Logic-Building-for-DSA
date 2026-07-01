@@ -12,7 +12,9 @@
         @Override
         void solve()
         {
-            int largest = largest(arr,n - 1,arr[0],arr[1]);
+            int large = Math.max(arr[0],arr[1]);
+            int sec = Math.min(arr[0],arr[1]);
+            int largest = largest(arr,n - 1,large,sec);
             System.out.println("Second Largest Element : " + largest);
         }
         static int largest(int[] arr, int n , int large, int seclarge)
