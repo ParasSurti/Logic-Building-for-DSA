@@ -14,8 +14,13 @@ public class Q08
         System.out.print("Enter the Second String : ");
         String str2 = input.nextLine();
 
-        int first = cmp(str,str2,0);
-        System.out.println(first);
+        int result = cmp(str,str2,0);
+        if(result == 0)
+            System.out.println("Both strings are equal");
+        else if(result < 0)
+            System.out.println("First string comes before second.");
+        else
+            System.out.println("First string comes after second.");;
     }
     static int cmp(String str,String str2,int i)
     {
