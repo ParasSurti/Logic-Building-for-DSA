@@ -24,7 +24,7 @@ public class Q01 extends StringTemplate
         char ch = Character.toLowerCase(str.charAt(l));
         if(ch >= 'a' && ch <= 'z')
         {
-            if(ch == 'a' || ch == 'e' ||  ch == 'i' || ch == 'o' ||  ch == 'u' )
+            if(isVowel(ch))
             {
                 return  count(str,l - 1) + 1;
             }
@@ -38,12 +38,16 @@ public class Q01 extends StringTemplate
         char ch = Character.toLowerCase(str.charAt(l));
         if(ch >= 'a' && ch <= 'z')
         {
-            if(ch == 'a' || ch == 'e' ||  ch == 'i' || ch == 'o' ||  ch == 'u')
+            if(isVowel(ch))
             {
                 return  countcon(str,l -1) ;
             }
             return  countcon(str,l - 1) + 1;
         }
         return countcon(str,l - 1);
+    }
+    static boolean isVowel(char ch)
+    {
+        return ch == 'a' || ch == 'e' ||  ch == 'i' || ch == 'o' ||  ch == 'u';
     }
 }
