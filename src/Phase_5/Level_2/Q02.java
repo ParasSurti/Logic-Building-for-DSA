@@ -1,6 +1,8 @@
 //Count the number of digits, letters, and special characters in a string.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q02 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q02 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int letter = count(str,l - 1);
         int digit = countdig(str,l - 1);
