@@ -1,6 +1,8 @@
 //Convert all characters of a string to uppercase.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q03 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q03 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         String upper = str.toUpperCase();
         printUpp(upper,l - 1);
