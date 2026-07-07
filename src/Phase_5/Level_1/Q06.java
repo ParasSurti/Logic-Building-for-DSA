@@ -1,6 +1,8 @@
 //Count how many words are in a sentence.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q06 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q06 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int words = count(str,l - 1, 0);
         System.out.println(words);
