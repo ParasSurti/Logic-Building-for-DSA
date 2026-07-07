@@ -1,6 +1,8 @@
 //Count how many uppercase and lowercase letters a string has.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q03 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q03 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int lower = countLower(str, l - 1);
         int upper = countUpper(str, l - 1);
