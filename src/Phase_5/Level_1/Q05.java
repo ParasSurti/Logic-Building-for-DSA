@@ -1,6 +1,8 @@
 //Count how many characters (excluding spaces) are in the string.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q05 extends StringTemplate
 {
     public static void main(String[] args)
@@ -11,7 +13,7 @@ public class Q05 extends StringTemplate
     }
 
     @Override
-    void solve()
+    protected void solve()
     {
         int character = count(str,l - 1);
         System.out.println("There are total '" + character + "' characters (excluding spaces) are in the string. ");
