@@ -1,6 +1,8 @@
 // Count how many words end with ‘s’.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q10 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q10 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int end = count(str,0);
         System.out.println("There are total " + end + " words which ends with 's' !!");
