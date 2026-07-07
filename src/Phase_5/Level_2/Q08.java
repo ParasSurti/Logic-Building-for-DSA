@@ -1,6 +1,8 @@
 //Count how many substrings start and end with the same character (simple logic).
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q08 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q08 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int count = words(str,0,l - 1);
         System.out.println(count);
