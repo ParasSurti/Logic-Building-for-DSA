@@ -1,6 +1,8 @@
 //Find the frequency of each character in a string (without using a map).
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q04 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q04 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
          feq(str,l - 1);
     }
