@@ -1,6 +1,8 @@
 //Count how many vowels and consonants are in a string.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q01 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,9 +12,8 @@ public class Q01 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
-
         int vowels = count(str,l - 1);
         int consonants = countcon(str,l - 1);
         System.out.println("There are total " + vowels + " vowels in this String!!");
