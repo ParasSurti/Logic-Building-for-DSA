@@ -1,7 +1,7 @@
 //Take a string input and print its length.
 package Phase_5.Level_1;
 
-import java.util.Scanner;
+import Phase_5.StringTemplate;
 
 public class Q01 extends StringTemplate
 {
@@ -12,7 +12,7 @@ public class Q01 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         System.out.println("The String : " + str);
         System.out.println("String Length : " + l);
