@@ -1,6 +1,8 @@
 // Check whether the string is empty or not.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q10 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q10 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         if(str.isEmpty())
         {
