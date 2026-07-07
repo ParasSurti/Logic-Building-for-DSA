@@ -1,6 +1,8 @@
 //Count how many spaces are there in a sentence.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 public class Q05 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q05 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         int space = count(str,l - 1);
         System.out.println("There are total " + space + " spaces in the String!! ");
