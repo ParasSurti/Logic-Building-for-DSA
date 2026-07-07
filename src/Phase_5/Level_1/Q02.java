@@ -1,6 +1,8 @@
 //Print the first and last character of a string.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q02 extends StringTemplate
 {
     public static void main(String[] args)
@@ -10,7 +12,7 @@ public class Q02 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         if(l == 0)
         {
