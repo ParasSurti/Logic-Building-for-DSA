@@ -1,6 +1,8 @@
 //Print the ASCII value of each character in a string.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q09 extends StringTemplate
 {
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class Q09 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         print(str,l - 1);
     }
