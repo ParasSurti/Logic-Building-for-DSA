@@ -1,6 +1,8 @@
 //Convert all characters of a string to lowercase.
 package Phase_5.Level_1;
 
+import Phase_5.StringTemplate;
+
 public class Q04 extends StringTemplate
 {
     public static void main(String[] args)
@@ -11,7 +13,7 @@ public class Q04 extends StringTemplate
     }
 
     @Override
-    void solve()
+    protected void solve()
     {
         String lower = str.toLowerCase();
         printLower(lower,l - 1);
