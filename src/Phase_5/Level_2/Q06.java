@@ -1,6 +1,8 @@
 //Count how many times a given character appears in a string.
 package Phase_5.Level_2;
 
+import Phase_5.StringTemplate;
+
 import java.util.Scanner;
 
 public class Q06 extends StringTemplate
@@ -12,7 +14,7 @@ public class Q06 extends StringTemplate
         q.solve();
     }
     @Override
-    void solve()
+    protected void solve()
     {
         System.out.println("Enter the single Character : ");
         String ch = input.next();
