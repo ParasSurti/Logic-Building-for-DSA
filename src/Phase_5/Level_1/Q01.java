@@ -1,9 +1,9 @@
 //Take a string input and print its length.
 package Phase_5.Level_1;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q01 extends StringTemplate
+public class Q01 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
