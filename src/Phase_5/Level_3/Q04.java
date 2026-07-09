@@ -1,9 +1,9 @@
 //Check whether a string is a palindrome.
 package Phase_5.Level_3;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q04 extends StringTemplate
+public class Q04 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
