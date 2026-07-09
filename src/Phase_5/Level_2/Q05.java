@@ -1,9 +1,9 @@
 //Count how many spaces are there in a sentence.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q05 extends StringTemplate
+public class Q05 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
