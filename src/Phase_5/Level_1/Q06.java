@@ -1,9 +1,9 @@
 //Count how many words are in a sentence.
 package Phase_5.Level_1;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q06 extends StringTemplate
+public class Q06 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
