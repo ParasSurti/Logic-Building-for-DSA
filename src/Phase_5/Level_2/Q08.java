@@ -1,9 +1,9 @@
 //Count how many substrings start and end with the same character (simple logic).
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q08 extends StringTemplate
+public class Q08 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
