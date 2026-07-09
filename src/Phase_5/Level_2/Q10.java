@@ -1,9 +1,9 @@
 // Count how many words end with ‘s’.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q10 extends StringTemplate
+public class Q10 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
