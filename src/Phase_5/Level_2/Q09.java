@@ -1,9 +1,9 @@
 //Print how many words start with a vowel in a sentence.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q09 extends StringTemplate
+public class Q09 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
