@@ -1,9 +1,9 @@
 //Find the frequency of each character in a string (without using a map).
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q04 extends StringTemplate
+public class Q04 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
