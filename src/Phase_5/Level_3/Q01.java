@@ -1,9 +1,9 @@
 //Reverse a string without using built-in reverse.
 package Phase_5.Level_3;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q01 extends StringTemplate
+public class Q01 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
