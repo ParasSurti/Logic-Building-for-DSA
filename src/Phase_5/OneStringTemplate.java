@@ -1,3 +1,4 @@
+// Abstract base class : One String Template
 package Phase_5;
 
 import java.util.Scanner;
