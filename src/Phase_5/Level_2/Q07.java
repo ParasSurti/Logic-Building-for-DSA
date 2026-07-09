@@ -1,9 +1,9 @@
 //Count how many alphabets are before ‘m’ and after ‘m’ in a given string.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q07 extends StringTemplate
+public class Q07 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
