@@ -1,9 +1,9 @@
 // Check whether the string is empty or not.
 package Phase_5.Level_1;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q10 extends StringTemplate
+public class Q10 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
