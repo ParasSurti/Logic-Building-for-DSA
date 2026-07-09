@@ -1,9 +1,9 @@
 //Count how many uppercase and lowercase letters a string has.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q03 extends StringTemplate
+public class Q03 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
