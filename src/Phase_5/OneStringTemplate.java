@@ -2,7 +2,7 @@ package Phase_5;
 
 import java.util.Scanner;
 
-public abstract class StringTemplate
+public abstract class OneStringTemplate
 {
     protected Scanner input = new Scanner(System.in);
     protected String str ;
