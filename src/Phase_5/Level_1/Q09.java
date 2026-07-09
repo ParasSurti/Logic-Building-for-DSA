@@ -1,9 +1,9 @@
 //Print the ASCII value of each character in a string.
 package Phase_5.Level_1;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-public class Q09 extends StringTemplate
+public class Q09 extends OneStringTemplate
 {
     public static void main(String[] args) {
         Q09 q = new Q09();
