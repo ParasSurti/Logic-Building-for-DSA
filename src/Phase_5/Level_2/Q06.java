@@ -1,11 +1,9 @@
 //Count how many times a given character appears in a string.
 package Phase_5.Level_2;
 
-import Phase_5.StringTemplate;
+import Phase_5.OneStringTemplate;
 
-import java.util.Scanner;
-
-public class Q06 extends StringTemplate
+public class Q06 extends OneStringTemplate
 {
     public static void main(String[] args)
     {
