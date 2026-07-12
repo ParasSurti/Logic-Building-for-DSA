@@ -30,7 +30,7 @@ public class Q06 extends OneStringTemplate
 
     static boolean seenBefore(String str,int i, int j)
     {
-        if(j <= 1) return false;
+        if(j >= i) return false;
         if(str.charAt(i) == str.charAt(j)) return true;
         return seenBefore(str,i,j + 1);
     }
