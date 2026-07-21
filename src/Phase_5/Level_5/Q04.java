@@ -16,27 +16,26 @@ public class Q04 extends OneStringTemplate
     protected void solve()
     {
 //        System.out.println(smallest(str));
-        int print = small(str,l  -1,0,Integer.MAX_VALUE);
+        int print = small(str,l  - 1,Integer.MAX_VALUE);
         String word = str.substring(bestStart, bestStart + print);
         System.out.println(word);
     }
-     static int small(String str, int index, int i, int smallest)
+     static int small(String str, int index, int smallest)
      {
-         if(i > index) return smallest;
-         if(smallest > smallWord(str,index,i,0) && str.charAt(i) != ' ')
+         if(index < 0) return smallest;
+         if(str.charAt (index) != ' ' && (index == 0 && smallest >= smallWord(str,index,0)  || smallest >= smallWord(str,index,0 ) && str.charAt(index - 1) == ' ') )
          {
-            smallest = smallWord(str,index,i,0);
-            bestStart = i;
+            smallest = smallWord(str,index,0);
+            bestStart = index;
          }
-         return small(str,index,i + 1,smallest);
+         return small(str,index - 1,smallest);
      }
-     static int smallWord(String str, int index, int i, int count)
+     static int smallWord(String str, int index, int count)
      {
-         if(i > index) return count;
-         if(str.charAt(i) == ' ') return count;
-         return smallWord(str,index,i + 1,count + 1);
+         if(index == str.length()) return count;
+         if(str.charAt(index) == ' ') return count;
+         return smallWord(str,index + 1,count + 1);
      }
-
 
 //    static String smallest(String str)
 //    {
