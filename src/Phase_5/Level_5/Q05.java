@@ -26,6 +26,12 @@ public class Q05 extends OneStringTemplate
 //        }
 
         int firstEnd = firstSpace(str,0);
+        if(firstEnd == 1 )
+        {
+            System.out.println(str);
+            return;
+        }
+
         int lastStart = lastSpace(str,l - 1);
         String middle = str.substring(firstEnd,lastStart + 1);
 //        String fullWord = print(str,first,last,word);
@@ -45,13 +51,13 @@ public class Q05 extends OneStringTemplate
 
     static int firstSpace(String str, int start)
     {
-        if(str.charAt(start) == ' ') return start;
+        if(start == str.length() || str.charAt(start) == ' ') return start;
         return firstSpace(str,start + 1);
     }
 
     static int lastSpace(String str, int end)
     {
-        if(str.charAt(end) == ' ') return end;
+        if(end == 0 || str.charAt(end) == ' ') return end;
         return lastSpace(str,end - 1);
     }
 
