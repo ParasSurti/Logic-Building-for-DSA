@@ -28,6 +28,6 @@ public class Q08 extends OneStringTemplate
         {
             return Character.toUpperCase(str.charAt(i));
         }
-        return Character.toLowerCase(str.charAt(i));
+        return str.charAt(i);
     }
 }
