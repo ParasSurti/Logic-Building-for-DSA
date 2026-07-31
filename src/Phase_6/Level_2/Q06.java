@@ -3,8 +3,6 @@ package Phase_6.Level_2;
 
 import Phase_6.OneStringTemplate;
 
-import java.util.Arrays;
-
 public class Q06 extends OneStringTemplate
 {
     public static void main(String[] args)
