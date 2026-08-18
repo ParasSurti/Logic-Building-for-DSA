@@ -4,7 +4,7 @@ package Phase_6.Level_3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q5
+public class Q05
 {
     public static void main(String[] args)
     {
